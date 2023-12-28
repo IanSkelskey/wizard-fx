@@ -7,4 +7,6 @@ module io.ianskelskey.wizard {
 
     opens io.ianskelskey.wizard to javafx.fxml;
     exports io.ianskelskey.wizard;
+    exports io.ianskelskey.wizard.controller;
+    opens io.ianskelskey.wizard.controller to javafx.fxml;
 }
