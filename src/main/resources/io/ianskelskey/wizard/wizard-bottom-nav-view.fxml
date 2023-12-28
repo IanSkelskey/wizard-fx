@@ -6,8 +6,8 @@
       fx:controller="io.ianskelskey.wizard.controller.WizardBottomNavController"
       fx:id="topNavigation"
       spacing="10.0"
-      alignment="CENTER_LEFT"
-      style="--fxbackground-color: #3379b7;"
->
+      alignment="CENTER_LEFT">
+
     <Label text="Bottom Navigation" textFill="WHITE"/>
+
 </HBox>

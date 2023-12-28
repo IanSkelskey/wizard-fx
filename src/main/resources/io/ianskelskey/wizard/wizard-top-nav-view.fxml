@@ -2,12 +2,12 @@
 
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.Label?>
+
 <HBox xmlns:fx="http://javafx.com/fxml"
       fx:controller="io.ianskelskey.wizard.controller.WizardTopNavController"
-      fx:id="topNavigation"
       spacing="10.0"
-      alignment="CENTER_LEFT"
-      style="--fxbackground-color: #3379b7;"
->
+      alignment="CENTER_LEFT">
+
     <Label text="Top Navigation" textFill="WHITE"/>
+
 </HBox>
