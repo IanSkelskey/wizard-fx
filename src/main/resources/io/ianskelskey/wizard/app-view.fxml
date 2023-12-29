@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="io.ianskelskey.wizard.controller.AppViewController"
+            fx:id="app">
+<center>
+    <fx:include fx:id="wizard" source="wizard-view.fxml" prefWidth="${app.prefWidth}"/>
+</center>
+
+
+</BorderPane>
